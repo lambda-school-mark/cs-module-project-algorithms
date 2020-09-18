@@ -3,7 +3,6 @@ Input: a List of integers
 Returns: a List of integers
 '''
 import math
-arr = [7, 9, 1, 8, 6, 7, 8, 8, 7, 10]
 
 
 def product_of_all_other_numbers(arr):
@@ -20,11 +19,8 @@ def product_of_all_other_numbers(arr):
         # make index iterate with for loop
         current_index += 1
     # return arr
-    print(copy)
     return copy
 
-
-product_of_all_other_numbers(arr)
 
 # if __name__ == '__main__':
 #     # Use the main function to test your implementation
